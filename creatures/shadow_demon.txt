@@ -1,0 +1,22 @@
+Shadow Demon
+13
+66
+30
+Demon
+1
+17
+12
+14
+13
+14
+Weapon
+Bite
+Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage plus 7 (2d6) poison damage.
+2d6 + 3
++5
+Ability
+Incorporeal Movement
+The demon can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.
+Ability
+Light Sensitivity
+While in bright light, the demon has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
