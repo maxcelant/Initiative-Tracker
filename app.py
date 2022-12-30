@@ -6,7 +6,7 @@ from menu import Menu
 
 def load_creatures_from_folder(pool: Pool):
     cwd = os.getcwd()
-    file_dir = os.path.join(cwd, 'creatures')
+    file_dir = os.path.join(cwd, 'database')
     for creature_file in os.listdir(file_dir):
         creature_file_path = os.path.join(file_dir, creature_file)
         f = open(creature_file_path, 'r')

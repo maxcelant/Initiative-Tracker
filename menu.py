@@ -28,6 +28,8 @@ class Menu:
             elif choice == "5":
                 self.update_creature()
             elif choice == "6":
+                self.create_creature()
+            elif choice == "7":
                 self.view_initiative_tracker()
             
             
@@ -38,9 +40,10 @@ class Menu:
         s3 = "[3] View creature info\n"
         s4 = "[4] Look at creature collection\n"
         s5 = "[5] Update creature\n"
-        s6 = "[6] View initiative tracker\n"
-        s7 = '========================================================\n'
-        all_s = s0 + s1 + s2 + s3 + s4 + s5 + s6 + s7
+        s6 = "[6] Create a new creature\n"
+        s7 = "[7] View initiative tracker\n"
+        s8 = '========================================================\n'
+        all_s = s0 + s1 + s2 + s3 + s4 + s5 + s6 + s7 + s8
         print(all_s)
         
     
@@ -72,7 +75,7 @@ class Menu:
         os.system('cls')
         identifier = input("Enter the creatures's id or nickname: ")
         self.tracker.remove(identifier)
-        input('Creature Removed! Press enter to continue')
+        input('Press enter to continue')
         
     
     def view_creature(self):
@@ -87,6 +90,11 @@ class Menu:
         print(f'===================COLLECTION=======================\n')
         self.pool.view()
         input('Press enter to return to main menu: ')
+        
+    
+    def create_creature(self):
+        print('Not implemented yet...')
+        input('Press enter to continue')
         
     
     def update_creature(self):

@@ -20,13 +20,8 @@ class Tracker:
         
     
     def remove(self, creature_identifier):
-        index, _, list = self.locate(creature_identifier)
-        
-        if not index or not list:
-            print('Creature not found...')
-            return
-        
-        del list[index]
+        i, _, list = self.locate(creature_identifier)
+        del list[i]
     
     
     def view(self, creature_identifier):
