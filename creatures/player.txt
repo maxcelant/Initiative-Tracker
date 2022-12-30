@@ -1,0 +1,19 @@
+Isaac Akaron
+13
+34
+30
+PC
+9
+16
+14
+20
+14
+15
+Weapon
+Staff of Power
+Ranged Weapon Attack: Can cast Fireball 3 times a day
+8d6
++10
+Ability
+Arcane Recovery
+Regain spell slots equal to half your level + 1

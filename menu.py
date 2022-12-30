@@ -32,13 +32,15 @@ class Menu:
             
             
     def menu_options(self):
+        s0 = '===================COMBAT TRACKER=======================\n'
         s1 = "[1] Add a creature to initiative tracker\n"
         s2 = "[2] Remove creature from initiative tracker\n"
         s3 = "[3] View creature info\n"
         s4 = "[4] Look at creature collection\n"
         s5 = "[5] Update creature\n"
         s6 = "[6] View initiative tracker\n"
-        all_s = s1 + s2 + s3 + s4 + s5 + s6
+        s7 = '========================================================\n'
+        all_s = s0 + s1 + s2 + s3 + s4 + s5 + s6 + s7
         print(all_s)
         
     
